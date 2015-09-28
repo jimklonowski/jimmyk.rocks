@@ -19,3 +19,5 @@ MIT
 - Expand Admin section
 	- Add admin auth settings to restrict access
 - Work on mobile responsiveness
+- Play around with Lightbox2 settings
+	- Specifically in regards to responsiveness and screen position.
