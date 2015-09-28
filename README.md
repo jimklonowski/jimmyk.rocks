@@ -13,7 +13,7 @@ A majority of this layout is derived from an Eduonix course called *Projects in 
 ##License##
 MIT
 
-##TODO##
+##BUGS/TODO##
 - Fix JavaScript problem when embedding the overlay on mouseover
 	- Currently <div\> tags are created on each mouseover event, leading to endless amounts of <div\>s.
 - Expand Admin section
@@ -21,3 +21,5 @@ MIT
 - Work on mobile responsiveness
 - Play around with Lightbox2 settings
 	- Specifically in regards to responsiveness and screen position.
+	- Lightbox2 prev/next image arrows do not respect selected categories(always pull total from total images in db)
+		- Probably need to play around with the PHP and give each image a category tag when populating the gallery.
